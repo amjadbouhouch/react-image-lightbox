@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/frontend-collective/react-image-lightbox/compare/v5.1.4...v5.2.0) (2022-05-20)
+
+
+### Features
+
+* expose onClick event to requestClose ([5f21ce9](https://github.com/frontend-collective/react-image-lightbox/commit/5f21ce9f1007c1b3cee3974e995f479234089132))
+
 ### [5.1.4](https://github.com/frontend-collective/react-image-lightbox/compare/v5.1.3...v5.1.4) (2021-07-13)
 
 ### [5.1.3](https://github.com/frontend-collective/react-image-lightbox/compare/v5.1.2...v5.1.3) (2021-07-13)
