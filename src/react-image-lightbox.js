@@ -1604,7 +1604,9 @@ class ReactImageLightbox extends Component {
                   aria-label={this.props.closeLabel}
                   title={this.props.closeLabel}
                   className="ril-close ril-toolbar__item__child ril__toolbarItemChild ril__builtinButton ril__closeButton"
-                  onClick={!this.isAnimating() ? this.requestClose : undefined} // Ignore clicks during animation
+                  onClick={event =>
+                    !this.isAnimating() ? this.requestClose(event) : undefined
+                  } // Ignore clicks during animation
                 />
               </li>
             </ul>
